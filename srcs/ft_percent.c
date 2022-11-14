@@ -1,23 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_pointer.c                                       :+:      :+:    :+:   */
+/*   ft_percent.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/14 16:28:54 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:13:58 by bperriol         ###   ########lyon.fr   */
+/*   Created: 2022/11/14 18:21:52 by bperriol          #+#    #+#             */
+/*   Updated: 2022/11/14 18:31:31 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../head/libftprintf.h"
 
-int	ft_pointer(void *p)
+int	ft_percent(void)
 {
-	int	count;
-
-	count = 0;
-	ft_putstr("0x");
-	ft_putnbr_base((unsigned long long)p, &count, 0);
-	return (count + 2);
+	ft_putchar('%');
+	return (1);
 }

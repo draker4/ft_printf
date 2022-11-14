@@ -1,23 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_pointer.c                                       :+:      :+:    :+:   */
+/*   ft_uint.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/14 16:28:54 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:13:58 by bperriol         ###   ########lyon.fr   */
+/*   Created: 2022/11/14 18:03:42 by bperriol          #+#    #+#             */
+/*   Updated: 2022/11/14 18:11:55 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../head/libftprintf.h"
 
-int	ft_pointer(void *p)
+int	ft_uint(unsigned int nb)
 {
-	int	count;
+	char	*str;
 
-	count = 0;
-	ft_putstr("0x");
-	ft_putnbr_base((unsigned long long)p, &count, 0);
-	return (count + 2);
+	str = ft_itoa_unsigned(nb);
+	ft_putstr(str);
+	return ((int)ft_strlen(str));
 }

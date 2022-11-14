@@ -28,6 +28,8 @@ SRCS		=	ft_putchar.c	ft_printf.c			\
 				ft_conv.c		ft_int.c			\
 				ft_char.c		ft_str.c			\
 				ft_pointer.c	ft_putnbr_base.c	\
+				ft_uint.c		ft_itoa_unsigned.c	\
+				ft_hexa.c		ft_percent.c
 
 OBJS		=	${SRCS:%.c=${DIR_OBJS}%.o}
 

@@ -6,12 +6,11 @@
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 11:41:19 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 16:05:27 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/14 18:30:55 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../head/libftprintf.h"
-#include <stdio.h>
 
 int	ft_printf(const char *str, ...)
 {
