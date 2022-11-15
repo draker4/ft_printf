@@ -6,17 +6,20 @@
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 18:03:42 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:11:55 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/14 18:50:42 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../head/libftprintf.h"
+#include "../head/ft_printf.h"
 
 int	ft_uint(unsigned int nb)
 {
 	char	*str;
+	int		len;
 
 	str = ft_itoa_unsigned(nb);
 	ft_putstr(str);
-	return ((int)ft_strlen(str));
+	len = (int)ft_strlen(str);
+	free(str);
+	return (len);
 }

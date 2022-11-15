@@ -6,12 +6,11 @@
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 18:08:55 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:11:16 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/14 18:43:51 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include "../head/libftprintf.h"
+#include "../head/ft_printf.h"
 
 static int	ft_nb_char_unsigned(unsigned int n)
 {

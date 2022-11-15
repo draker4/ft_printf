@@ -6,11 +6,11 @@
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 14:45:32 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 14:45:41 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/14 18:45:15 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../head/libftprintf.h"
+#include "../head/ft_printf.h"
 
 char	*ft_strdup(const char *s1)
 {

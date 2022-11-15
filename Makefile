@@ -18,7 +18,7 @@ DIR_HEAD	=	head/
 
 # ---- Files ---- #
 
-HEAD		=	libftprintf.h 
+HEAD		=	ft_printf.h 
 
 SRCS_OUTPUT	=	main.c
 

@@ -6,11 +6,11 @@
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 16:36:45 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:17:42 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/14 18:44:30 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../head/libftprintf.h"
+#include "../head/ft_printf.h"
 
 void	ft_putnbr_base(unsigned long long nb, int *count, int maj)
 {
