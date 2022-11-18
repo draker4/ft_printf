@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libftprintf.h                                      :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bperriol <bperriol@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 11:44:38 by bperriol          #+#    #+#             */
-/*   Updated: 2022/11/14 18:42:54 by bperriol         ###   ########lyon.fr   */
+/*   Updated: 2022/11/18 12:58:02 by bperriol         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <limits.h>
-# include <stdlib.h>
 
 int		ft_nb_args(const char *str);
 int		ft_printf(const char *str, ...);
